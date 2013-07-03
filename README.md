@@ -1,0 +1,12 @@
+cloud-IAAS
+==========
+
+云计算 基础架构即为服务（IAAS）的解决方案 
+
+本项目为云计算  虚拟机生命周期管理的通用解决方案：
+1.包含基于x86体系vmware vCenter 4.x 体系操作API
+2.包含基于IBM Power体系 SCE 5.x 体系操作API
+3.包含基于IBM Z体系 SCE 5.x 体系操作API
+住IBM 体系基于rest api操作底层引擎 基于本人另外项目 https://github.com/fangchi/rest-engine :)
+
+欢迎fork和吐槽
