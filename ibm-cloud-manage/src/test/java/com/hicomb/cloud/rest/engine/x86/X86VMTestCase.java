@@ -1,26 +1,5 @@
 package com.hicomb.cloud.rest.engine.x86;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.UUID;
-
-import org.apache.xerces.impl.dv.util.Base64;
-
-import com.hicomb.cloud.rest.common.CommonConst;
-import com.hicomb.cloud.rest.exception.CloudRestException;
-import com.hicomb.cloud.rest.sce.SmartCloudEntryRestEngine;
-import com.hicomb.cloud.rest.sce.entity.virtualmachine.VirtualMachine;
-import com.hicomb.cloud.rest.sce.http.HttpSmartCloudEntryRestEngine;
-import com.hicomb.rest.engine.RestEngine;
-import com.hicomb.rest.engine.impl.DefaultRestEngine;
-import com.hicomb.rest.exception.RestException;
-import com.hicomb.rest.util.RESTUtilities;
 
 public class X86VMTestCase  extends X86CloudTestCase{
 
