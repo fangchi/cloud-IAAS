@@ -16,7 +16,7 @@ import com.hicomb.rest.engine.impl.DefaultRestEngine;
 
 public class RestEngineTestCase extends RestBaseTestCase {
 
-	   private static HostnameVerifier hostNameVerifier = new HostnameVerifier() {
+	   protected static HostnameVerifier hostNameVerifier = new HostnameVerifier() {
 			public boolean verify(String hostname, SSLSession session) {
 				return true;
 			}
